@@ -1,7 +1,37 @@
 a {
     color: black;
+    font-size: 1em;
+    font-family: "Manrope";
 }
 
-.important {
-    color: #a5b4fc;
+p {
+    font-size: 1.1em;
+    font-family: "Manrope"; 
+}
+
+h1 {
+    color: #A5B4FC;
+    font-size: 3.5em;
+    font-family: "Montserrat";    
+}
+
+h2 {
+    color: #A5B4FC;
+    font-size: 2.5em;
+    font-family: "Monserrat";
+}
+
+h3 {
+    color: #A5B4FC;
+    font-size: 1.5em;
+    font-family: "Monserrat";
+}
+
+ul {
+    font-size: 1em;
+    font-family: "Manrope";
+}
+
+em {
+    font-weight: 600;
 }
