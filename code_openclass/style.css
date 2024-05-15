@@ -1,14 +1,18 @@
+
 body {
     background-color: #1F2039;
     color: white;
     margin: 0;
 }
 
-div {
+header {
     background-color: white;
-    color: #242424;
 }
 
+main {
+    height: 25%;
+    width: auto;
+}
 p, ul {
     background:linear-gradient(90deg, #8E86B5, #ACAEED);
     border-radius: 10px 0px 0px 10px;
@@ -30,12 +34,19 @@ a:visited {
 p {
     font-size: 1.1em;
     font-family: "Manrope"; 
+    padding: 5px;
 }
 
 h1 {
     color: #A5B4FC;
     font-size: 3.5em;
     font-family: "Montserrat";    
+}
+
+.h1-propos {
+    margin-left: 450px;
+    position: relative;
+    bottom: 300px;
 }
 
 h2 {
@@ -75,9 +86,12 @@ em {
 
 .a-propos {
     color: black;
-    margin: 30px 30px 30px 30px;
-    padding: auto;
-    background-color: pink;
+    padding: 5px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 15px;
+    border: 1.5px black solid;
+    border-radius: 10px;
     
 }
 
@@ -95,14 +109,18 @@ em {
     border-right: 1px #8e86b5 solid;
     border-bottom: 1px #8e86b5 solid;
     background-color: #1F2039;
+    position: relative;
+    bottom: 180px;
 }
 
 .link_logo:hover {
     opacity: 0.5;
 }
 
-.photo_robbie {
-    background-image: cover center;
+.photo-robbie {
+    background-image: cover center; 
+    width: 350px;  
+    height: auto;
 }
 
 .banniere {
@@ -113,8 +131,27 @@ em {
 }
 
 .reseaux {
+    background-color: white;
     background-image: white;
     border-radius: 0px 10px 10px 0px;
     color: #F9F8FF;
     width: 25%;
+    margin-top: 400px;
+}
+
+.demo-photo {
+    margin-bottom: 20px;
+}
+
+.photo1 {
+    width: 500px;
+    height: auto;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+
+.photo2 {
+    width: 385px;
+    height: auto;
+    border: 2px solid black;
 }
