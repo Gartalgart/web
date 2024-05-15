@@ -1,7 +1,30 @@
+body {
+    background-color: #1F2039;
+    color: white;
+    margin: 0;
+}
+
+div {
+    background-color: white;
+    color: #242424;
+}
+
+p, ul {
+    background:linear-gradient(90deg, #8E86B5, #ACAEED);
+    border-radius: 10px 0px 0px 10px;
+    color: #F9F8FF;
+}
+
 a {
-    color: black;
     font-size: 1em;
     font-family: "Manrope";
+    text-decoration: none;
+}
+
+a:visited {
+    font-size: 1em;
+    font-family: "Manrope";
+    color: black;
 }
 
 p {
@@ -18,13 +41,14 @@ h1 {
 h2 {
     color: #A5B4FC;
     font-size: 2.5em;
-    font-family: "Monserrat";
+    font-family: "Montserrat";
+    margin: 5px 0 5px 0;
 }
 
 h3 {
     color: #A5B4FC;
     font-size: 1.5em;
-    font-family: "Monserrat";
+    font-family: "Montserrat";
 }
 
 ul {
@@ -34,4 +58,63 @@ ul {
 
 em {
     font-weight: 600;
+}
+
+.com {
+    background:linear-gradient(90deg, #8E86B5, #ACAEED);
+    border-radius: 50px;
+    color: white;
+    font-family: "Manrope";
+    text-align: center;
+}
+
+.com:hover {
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.a-propos {
+    color: black;
+    margin: 30px 30px 30px 30px;
+    padding: auto;
+    background-color: pink;
+    
+}
+
+.a-propos:visited {
+    color: black;
+}
+
+.a-propos:hover {
+    font-weight: 900;
+    text-decoration: none;
+}
+
+
+.presentation {
+    border-right: 1px #8e86b5 solid;
+    border-bottom: 1px #8e86b5 solid;
+    background-color: #1F2039;
+}
+
+.link_logo:hover {
+    opacity: 0.5;
+}
+
+.photo_robbie {
+    background-image: cover center;
+}
+
+.banniere {
+    background-image: url(image/city.jpg);
+    padding: 50px;
+    opacity: 0.8; 
+    text-align: center;
+}
+
+.reseaux {
+    background-image: white;
+    border-radius: 0px 10px 10px 0px;
+    color: #F9F8FF;
+    width: 25%;
 }
