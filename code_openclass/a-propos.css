@@ -1,0 +1,70 @@
+.photos-robbies {
+    padding: 50px 0px 50px 0px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.photos-robbie {
+    width: 200px;  
+    height: auto;
+    padding: 15px;
+}
+
+.h1-propos {
+    margin-left: 450px;
+    position: relative;
+    bottom: 300px;
+}
+
+.presentation {
+    background-color: #1F2039;
+    justify-content: center;
+    border-right: 2px #8E86B5 solid;
+    max-width: 600px;
+    max-height: 600px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -200px;
+}
+
+.presentation p {
+    padding: 20px;
+    text-align: left;
+}
+
+.presentation h2 {
+    text-align: center;
+}
+
+.photo-link2{
+    position: relative;
+    margin: -13px;
+}
+
+.voir-photo2 {
+    background-color: black;
+    color: white;
+    opacity: 70%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin: 15px 11px 5px 15px;
+    display: none;
+}
+
+.photo-link2:hover .voir-photo2 {
+    display: flex;
+}
+

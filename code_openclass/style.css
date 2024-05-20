@@ -13,10 +13,9 @@ main {
     height: 25%;
     width: auto;
 }
-p, ul {
-    background:linear-gradient(90deg, #8E86B5, #ACAEED);
-    border-radius: 10px 0px 0px 10px;
+p {
     color: #F9F8FF;
+    text-align: center;
 }
 
 a {
@@ -43,12 +42,6 @@ h1 {
     font-family: "Montserrat";    
 }
 
-.h1-propos {
-    margin-left: 450px;
-    position: relative;
-    bottom: 300px;
-}
-
 h2 {
     color: #A5B4FC;
     font-size: 2.5em;
@@ -71,23 +64,10 @@ em {
     font-weight: 600;
 }
 
-.com {
-    background:linear-gradient(90deg, #8E86B5, #ACAEED);
-    border-radius: 50px;
-    color: white;
-    font-family: "Manrope";
-    text-align: center;
-}
-
-.com:hover {
-    text-decoration: none;
-    font-weight: 900;
-}
-
 .a-propos {
     color: black;
     padding: 5px;
-    margin-left: 30px;
+    margin-left: 20px;
     position: relative;
     bottom: 15px;
     border: 1.5px black solid;
@@ -102,56 +82,81 @@ em {
 .a-propos:hover {
     font-weight: 900;
     text-decoration: none;
+    border: 2px black solid;
+
 }
 
-
-.presentation {
-    border-right: 1px #8e86b5 solid;
-    border-bottom: 1px #8e86b5 solid;
-    background-color: #1F2039;
-    position: relative;
-    bottom: 180px;
+.logo-reseaux {
+    padding-left: 10px;
+}
+.link_insta {
+    padding: 5px 20px 0px 20px;
 }
 
-.link_logo:hover {
+.link-logo {
+    text-align: right;
+}
+
+.logo-reseaux, .link-logo {
+    flex: 1; 
+}
+
+.link_x:hover {
     opacity: 0.5;
 }
 
-.photo-robbie {
-    background-image: cover center; 
-    width: 350px;  
-    height: auto;
-}
-
-.banniere {
-    background-image: url(image/city.jpg);
-    padding: 50px;
-    opacity: 0.8; 
-    text-align: center;
+.link_insta:hover {
+    opacity: 0.5;
 }
 
 .reseaux {
     background-color: white;
-    background-image: white;
-    border-radius: 0px 10px 10px 0px;
-    color: #F9F8FF;
-    width: 25%;
-    margin-top: 400px;
+    padding-top: 15px;
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.demo-photo {
-    margin-bottom: 20px;
+.monportfolio {
+    color: black;
+    padding: 5px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 15px;
+    border: 1.5px black solid;
+    border-radius: 10px;
 }
 
-.photo1 {
-    width: 500px;
-    height: auto;
-    margin-left: 10px;
-    border: 2px solid black;
+.monportfolio:visited {
+    color: black;
 }
 
-.photo2 {
-    width: 385px;
-    height: auto;
-    border: 2px solid black;
+.monportfolio:hover {
+    font-weight: 900;
+    text-decoration: none;
+    border: 2px black solid;
 }
+
+
+.photos-paysage {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    display: grid;
+    grid-template-columns: 325px 325px 325px;
+    grid-template-rows: 325px 325px;
+    grid-auto-rows: 1fr;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    padding: 20px 0px 20px 0px;
+    margin-top: -10px;
+}
+
+
+
+
+
+

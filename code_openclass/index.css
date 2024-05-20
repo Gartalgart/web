@@ -1,0 +1,93 @@
+
+.h1-index {
+    padding: 20px 500px 0px 450px;
+    margin: -10px;
+}
+
+.p-index {
+    text-align: left;
+    padding: 0px 700px 0px 480px;
+    min-width: 400px;
+}
+
+.photo-robbie1 {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px 50px 10px 1000px;
+    position: relative;
+    bottom: 200px;
+    width: 350px;  
+    height: auto;
+    border-right: 2px #8E86B5 solid;
+}
+
+.com {
+    background:linear-gradient(90deg, #8E86B5, #ACAEED);
+    border-radius: 50px;
+    font-family: "Manrope";
+    text-align: center;
+    padding: 5px;
+    margin-left: 550px;
+    margin-top: 10px;
+}
+
+.com:hover {
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.voir-portfolio {
+    background:linear-gradient(90deg, #8E86B5, #ACAEED);
+    border-radius: 50px;
+    padding: 5px;
+    font-family: "Manrope";
+    text-align: center;
+    margin-left: 850px;
+}
+
+.port {
+    background-color: white;
+    padding: 10px 0px 30px 0px;
+
+}
+
+.voir-portfolio:hover {
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.banniere {
+    max-height: 500px;
+}
+
+.h2-index {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.photo-link1{
+    position: relative;
+    margin-bottom: 13px;
+}
+
+.voir-photo1 {
+    background-color: black;
+    color: white;
+    opacity: 70%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5em;
+    display: none;
+}
+
+.photo-link1:hover .voir-photo1 {
+    display: flex;
+}

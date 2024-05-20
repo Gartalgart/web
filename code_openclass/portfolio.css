@@ -1,0 +1,37 @@
+.h1-portfolio {
+    padding-left: 30px;
+}
+
+.h2-paysage {
+    background-color: white;
+    color: black;
+    padding-left: 420px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.h2-portrait {
+    background-color: white;
+    color: black;
+    padding-left: 420px;
+    margin: -10px 0px -10px 0px;
+    font-weight: 400;
+}
+
+.photos-portraits {
+    display: flex;
+    flex-flow: row wrap;
+    display: grid;
+    grid-template-columns: 325px 325px 325px;
+    grid-template-rows: 325px 325px;
+    grid-auto-rows: 1fr;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    padding: 20px 0px 20px 0px;
+}
+
+.portrait {
+    width: 320px;
+    height: 320px;
+}
