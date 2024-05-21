@@ -55,6 +55,12 @@ h3 {
     font-family: "Montserrat";
 }
 
+h4 {
+    color: #A5B4FC;
+    font-size: 1em;
+    font-family: "Montserrat";
+}
+
 ul {
     font-size: 1em;
     font-family: "Manrope";
@@ -65,6 +71,10 @@ em {
 }
 
 .a-propos {
+    display: inline-block;
+    height: 25px;
+    width: 70px;
+    text-align: center;
     color: black;
     padding: 5px;
     margin-left: 20px;
@@ -84,6 +94,30 @@ em {
     text-decoration: none;
     border: 2px black solid;
 
+}
+
+.head-tarif {
+    display: inline-block;
+    height: 25px;
+    width: 70px;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 15px;
+    border: 1.5px black solid;
+    border-radius: 10px;
+}
+
+.head-tarif:visited {
+    color: black;
+}
+
+.head-tarif:hover {
+    font-weight: 900;
+    text-decoration: none;
+    border: 2px black solid;
 }
 
 .logo-reseaux {
@@ -120,6 +154,10 @@ em {
 }
 
 .monportfolio {
+    display: inline-block;
+    height: 25px;
+    width: 120px;
+    text-align: center;
     color: black;
     padding: 5px;
     margin-left: 20px;
