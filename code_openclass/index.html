@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initiale-scale=1.0">
         <title>Accueil - Robbie Lens Photographie</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="index.css">
@@ -17,21 +18,24 @@
             <a href="index.html">
                 <img class="link_logo" src="image/logo.png" title="accueil" alt="logo">
             </a>
-            <a class="a-propos" href="a-propos.html">A propos</a>
-            <a class="monportfolio" href="portfolio.html">Mon Portfolio</a> 
-            <a class="head-tarif" href="tarif.html">Tarif</a>
-
+            <div class="link-banniere">
+                <a class="a-propos" href="a-propos.html">A propos</a>
+                <a class="monportfolio" href="portfolio.html">Mon Portfolio</a> 
+                <a class="head-tarif" href="tarif.html">Tarif</a>
+            </div>
         </header>
         <main>
             <div class="banniere">
-                <h1 class="h1-index">Photographie</h1>
+                <div class="texte-banniere">
+                    <h1 class="h1-index">Photographie</h1>
                 <p class="p-index">
                     Où <em>professionalisme</em> s’allie avec <em>passion</em>. <br>
                     Depuis plus de 5 ans maintenant, j’exerce <br>
                     mon métier avec la passion qui m’anime : <br>
                     capturer l’essence de chaque instant.
                 </p>
-                <a class="com" href="">Un projet ? Ecrivez-moi</a>
+                <a class="com" href="">UN PROJET ? ECRIVEZ-MOI</a>
+                </div>
                 <img class="photo-robbie1" src="image/robbie-lens.png" alt="Robbie Lens">
             </div>
             <h2 class="h2-index">Mon Dernier Projet</h2>
@@ -62,8 +66,28 @@
                 </a>
             </div>
             <div class="port">
-                <a class="voir-portfolio" href="portfolio.html">Voir mon portfolio</a>
+                <a class="voir-portfolio" href="portfolio.html">VOIR MON PORTFOLIO</a>
             </div>
+            <section class="formulaire">
+                <h2>Parlons de votre projet</h2>
+                <form action="" method="get">
+                    <fieldset>
+                        <p>
+                            <label for="nom">nom</label>
+                            <input type="text" name="nom" id="nom" size="30" maxlenght="20" required>
+                        </p>
+                        <p>
+                            <label for="email">email</label>
+                            <input type="email" name="email" id="email" size="30" maxlength="20" required>
+                        </p>
+                    </fieldset>
+                        <p>
+                            <label class="message" for="message">message</label>
+                            <textarea name="message" id="message" required></textarea>
+                        </p>
+                    <input class="envoyer" type="submit" value="ENVOYER">
+                </form>
+            </section>
         </main>
         <footer>
             <div class="reseaux">
