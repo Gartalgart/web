@@ -155,19 +155,8 @@ input {
     width: 100%;
 }
 
-@media screen and (max-width: 1200px) {
 
-   .h1-index, .p-index, .photo-robbie1, .com, .voir-portfolio, .envoyer {
-        padding: 5%;
-        margin: 0 auto;
-    }
-
-    .photo-robbie1 {
-        padding: 10px 5%;
-    }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
 
     .p-index {
         padding: 5px 5% 5px;
@@ -187,7 +176,7 @@ input {
         left: 10em;
     }
 
-    .com, .voir-portfolio, .envoyer {
+    .com, .envoyer {
         margin: 10px auto;
         padding: 10px 5%;
         width: 80%;
@@ -227,7 +216,7 @@ input {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .h1-index {
         font-size: 2em;
     }
@@ -250,7 +239,7 @@ input {
    }
 
    .voir-photo1 {
-    width: 83%;
+    width: 85%;
    }
 
     .com, .voir-portfolio {
@@ -264,6 +253,20 @@ input {
     .envoyer {
         padding: 10px 2%;
         font-size: 0.9em;
+    }
+
+    .a-propos {
+        width: 100px;
+    }
+
+    textarea {
+        min-width: 20%;
+
+    }
+
+    .message {
+        position: relative;
+        left: 25px;
     }
 }
 

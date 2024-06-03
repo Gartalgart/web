@@ -35,3 +35,52 @@
     width: 320px;
     height: 320px;
 }
+
+@media screen and (max-width: 1000px) {
+
+    .h2-paysage {
+        padding: 0.5em 0px 10px 2.5em;
+    }
+
+    .photos-paysage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-left: 6em;
+        
+    }
+
+    .h2-portrait {
+        padding: 0.5em 0px 0px 2.5em;
+    }
+
+     .photos-portraits {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-left: 6em;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+
+    .head-tarif {
+        padding-right: 1em;
+    }
+
+
+    .photos-paysage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+     .photos-portraits {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+
+

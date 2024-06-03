@@ -51,20 +51,55 @@
     color: white;
     opacity: 70%;
     position: absolute;
-    top: 0;
+    top: 0.62em;
     right: 0;
     bottom: 0;
-    left: 0;
+    left: 0.65em;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
     font-size: 1.5em;
-    margin: 15px 11px 5px 15px;
     display: none;
+    width: 170px;
+    height: 170px;
 }
 
 .photo-link2:hover .voir-photo2 {
     display: flex;
+}
+
+@media screen and (max-width: 770px) {
+    .photo-link2:nth-child(1), .photo-link2:nth-child(2){
+        display: none;
+    }
+
+    .photos-robbies {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 770px;
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 480px) {
+
+    .photo-link2:nth-child(5), .photo-link2:nth-child(6){
+        display: none;
+    }
+
+    .photos-robbies {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 480px;
+        padding-left: 25px;
+    }
 }
 

@@ -8,6 +8,7 @@ body {
     margin: 0;
     max-width: 100%;
     overflow-x: hidden;
+    font-family: "Manrope" sans-serif;
 }
 
 header {
@@ -38,50 +39,42 @@ p {
 
 a {
     font-size: 1em;
-    font-family: "Manrope";
     text-decoration: none;
 }
 
 a:visited {
     font-size: 1em;
-    font-family: "Manrope";
     color: white;
 }
 
 p {
     font-size: 1.1em;
-    font-family: "Manrope"; 
     padding: 5px;
 }
 
 h1 {
     color: #A5B4FC;
     font-size: 3.5em;
-    font-family: "Montserrat";    
 }
 
 h2 {
     color: #A5B4FC;
     font-size: 2.5em;
-    font-family: "Montserrat";
     margin: 5px 0 5px 0;
 }
 
 h3 {
     color: #A5B4FC;
     font-size: 1.5em;
-    font-family: "Montserrat";
 }
 
 h4 {
     color: #A5B4FC;
     font-size: 1em;
-    font-family: "Montserrat";
 }
 
 ul {
     font-size: 1em;
-    font-family: "Manrope";
 }
 
 em {
@@ -91,7 +84,7 @@ em {
 .a-propos {
     display: inline-block;
     height: 25px;
-    width: 90px;
+    width: 100px;
     text-align: center;
     color: black;
     padding: 5px;
