@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6, button, a {
+h1, h2, h3, h4, h5, h6, button, a, p {
     font-family: "Torus Notched";
 }
 
@@ -65,6 +65,10 @@ header .container ul a:hover {
     color: white;
     }
 
+    header .container .logo {
+        padding-left: 10px;
+    }
+
     .sec1 h1 {
         margin-left: 50px;
     }
@@ -72,6 +76,21 @@ header .container ul a:hover {
     .sec1 button {
         margin-left: 50px;
     }
+}
+
+@media (max-width: 750px) {
+    header .container .logo {
+        display: none;
+    }
+
+    header .container {
+        justify-content: center;
+    }
+
+    header .container ul {
+    display: flex;
+    gap: 25px;
+}
 }
 /*--Section1--*/
 
@@ -149,5 +168,218 @@ header .container ul a:hover {
     margin-left: 20px;
 }
 
+.sec1 .container .bg-responsive {
+    display: none;
+}
 
+@media (max-width: 1500px) {
+    .sec1 .container {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sec1 {
+        height: 100%;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .sec1 .container .bg-responsive {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .sec1 .container .bg-responsive img {
+        max-width: 600px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 950px) {
+    .sec1 h1 {
+        font-size: 6em;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .sec1 .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec1 .container .bg-responsive {
+        margin-top: 50px;
+    }
+
+    .sec1 .container .bg-responsive img{
+        width: 80%;
+    }
+
+    .sec1 h1 {
+        font-size: 4em;
+    }
+}
+/*--TRANSITION--*/
+
+.transition {
+    width: 120%;
+    position: absolute;
+    transform: translateY(-30%);
+}
+
+.transition img {
+    width: 120%;
+    filter: drop-shadow(0px 5px 2px #acc4e8);
+}
+
+/*--Section2--*/
+
+.sec2 {
+    background-color: #232323;
+    padding-top: 120px;
+}
+
+.sec2 .container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec2 h1 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    margin-top: 20px;
+}
+
+.sec2 h1::before {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #66aefc;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 80%,
+        80% 35%,
+        64% 100%,
+        48% 35%,
+        31% 100%,
+        16% 35%,
+        0 80%
+    );
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sec2 .left, .right {
+    color: white;
+}
+
+.sec2 .content-top, .content-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 6em 0 2em 0;
+
+}
+
+.sec2 .content-top .right img {
+    max-width: 80%;
+}
+
+.sec2 .content-bottom .left img {
+    max-width: 80%;
+}
+
+.sec2 .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sec2 p {
+    max-width: 600px;
+    font-size: 1.2em;
+}
+
+.sec2 h2 {
+    font-size: 2.5em;
+}
+
+.sec2 .container .point {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border: 2px solid white;
+    border-radius: 100%;
+    background-color: #31489f;
+    margin-right: 10px;
+}
+
+
+.sec2 .container .séparateur {
+    display: block;
+    height: 5px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #66aefc;
+    margin: 1em 0 1em 0;
+}
+
+@media (max-width: 1500px) {
+
+    .sec2 .title{
+        justify-content: center;
+    }
+
+    .sec2 .séparateur{
+        position: relative;
+        left: 45%;
+    }
+
+    .sec2 p {
+        text-align: center;
+    }
+
+    .sec2 img {
+        position: relative;
+        left: 10%;
+    }
+
+    .sec2 .content-top {
+        flex-direction: column;
+        margin-top: 6em;
+
+    }
+
+    .sec2 .content-top .right {
+        margin-top: -150px;
+    }
+
+     .sec2 .content-bottom .left {
+        margin-top: -150px;
+    }
+
+    .sec2 .content-bottom {
+        flex-direction: column-reverse;
+        margin-top: 6em;
+
+    }
+}
 
