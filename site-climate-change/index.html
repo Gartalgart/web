@@ -9,6 +9,14 @@
         <script src="https://kit.fontawesome.com/0c87a70838.js"></script>
     </head>
     <body>
+
+        <div class="onglet-side">
+            <a href="#accueil" class="active"></a>
+            <a href="#mission"></a>
+            <a href="#propos"></a>
+            <a href="#don"></a>
+        </div>
+
         <header>
             <div class="container">
                 <div class="logo">
@@ -16,16 +24,16 @@
                 </div>
                 <div class="onglet">
                     <ul>
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">Notre mission</a></li>
-                        <li><a href="#">A propos</a></li>
-                        <li><a href="#">Faire un Don</a></li>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#mission">Notre mission</a></li>
+                        <li><a href="#propos">A propos</a></li>
+                        <li><a href="#don">Faire un Don</a></li>
                     </ul>
                 </div>
                 <div class="logo"></div>
             </div>
         </header>
-        <div class="sec1">
+        <section class="sec1" id="accueil">
             <div class="container">
                 <h1>Réchauffement<br>climatique</h1>
                 <a href="#">
@@ -37,13 +45,13 @@
                     <img src="image/img/11.png" alt="">
                 </div>
             </div>
-        </div>
+        </section>
 
         <div class="transition">
             <img src="image/img/10.png" alt="">
         </div>
 
-        <div class="sec2">
+        <section class="sec2" id="mission">
             <div class="container">
                 <div class="title">
                     <h1>Notre mission...</h1>
@@ -84,9 +92,71 @@
                             et maintiennent l'équilibre écologique. Chaque effort individuel
                             et collectif contribue à la santé des océans. Engageons-nous
                             ensemble pour préserver la richesse et la beauté de nos fonds marins.
+                        </p>
                     </div>
                 </div>  
             </div>
-        </div>
+        </section>
+        <section class="sec3" id="propos">
+            <div class="container">
+                <div class="content-left">
+                    <h1>Des espèces en voie de disparition</h1>
+                    <div class="séparateur"></div>
+                    <p>
+                        Chaque jour, des espèces disparaissent à cause de la déforestation et
+                        du changement climatique. En protégeant les habitats naturels et en 
+                        soutenant les initiatives de conservation, nous pouvons inverser cette
+                        tendance. Ensemble, préservons la richesse de notre planète pour les
+                        générations futures.
+                    </p>
+                    <a href="#">
+                        <button>En savoir plus
+                            <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="content-right">
+                    <img src="image/img/2.png" alt="">
+                </div>
+            </div>
+        </section>
+
+            <div class="transition2">
+                <img src="image/img/10.png" alt="">
+            </div>
+
+        <section class="sec4" id="don">
+            <div class="container">
+                <div class="content-left">
+                    <img src="image/img/5.png" alt="">
+                </div>
+                <div class="content-center">
+                    <h1>Pour chaque don 1M² de banquise sauvée</h1>
+                    <p>
+                        Vos contributions financent des projets de conservation et réduisent
+                        les émissions de CO2, aidant à protéger l'habitat des espèces menacées.
+                        Ensemble, ralentissons la fonte des glaces et préservons cette région
+                        essentielle. Chaque don compte pour l'avenir de la banquise.
+                    </p>
+                    <a href="#">
+                        <button>Faire un don
+                            <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="content-right">
+                    <img src="image/img/8.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript">
+            $(document).on("click",".onglet-side a", function (){
+                $(this).addClass("active").siblings().removeClass("active");
+            });
+
+        </script>
+
     </body>
 </html>
