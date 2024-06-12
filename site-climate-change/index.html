@@ -6,6 +6,7 @@
         <title>Climage Change</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link href="https://db.onlinewebfonts.com/c/6a17929c7360288d1242981da7712dc3?family=Torus+Notched" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://kit.fontawesome.com/0c87a70838.js"></script>
     </head>
     <body>
@@ -30,9 +31,35 @@
                         <li><a href="#don">Faire un Don</a></li>
                     </ul>
                 </div>
+                <div class="burger-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
                 <div class="logo"></div>
             </div>
+            <div class="menu">
+                <div class="onglet">
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#mission">Notre mission</a></li>
+                        <li><a href="#propos">A propos</a></li>
+                        <li><a href="#don">Faire un Don</a></li>
+                    </ul>
+                </div>
+            </div>
         </header>
+
+        <script>
+            const burgerMenuButton = document.querySelector('.burger-menu')
+            const burgerMenuButtonIcon = document.querySelector('.burger-menu i')
+            const burgerMenu = document.querySelector('.menu')
+
+            burgerMenuButton.onclick = function(){
+                burgerMenu.classList.toggle('open')
+                const isOpen = burgerMenu.classList.contains('open')
+                burgerMenuButtonIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
+            }
+        </script>
+
         <section class="sec1" id="accueil">
             <div class="container">
                 <h1>Réchauffement<br>climatique</h1>
