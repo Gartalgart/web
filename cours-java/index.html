@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="scripts/config.js" defer></script>
+        <script src="scripts/chrono.js" defer></script>
+        <script src="scripts/message.js" defer></script>
+        <script src="scripts/start.js" defer></script>
+        <script src="scripts/choice.js" defer></script>
+        <script src="scripts/main.js" defer></script>
+        <title>Cours javascript</title>
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>AzerType</h1>
+                <h2>L'application pour écrire plus vite !</h2>
+                <p>AzerType est une application en ligne pour apprendre à taper plus vite au clavier :) </p>
+            </div>
+        </header>
+        <section class="main">
+            <div class="container">
+                <p>Choisissez votre option et tapez la proposition qui s'affiche dans le champs en-dessous.</p>
+                <div class="selectChoice">
+                    <div class="choice">
+                        <form method="get" action="">
+                            <p>
+                                <div class="choice1">
+                                    <input type="radio" name="choice" id="word" value="word" checked>
+                                    <label for="mot">Mots</label>
+                                </div>
+                                <div class="choice2">
+                                    <input type="radio" name="choice" id="sentence" value="sentence">
+                                    <label for="phrase">Phrases</label>
+                                </div> 
+                            </p>  
+                        </form>
+                    </div>
+                    <div class="validButton">
+                        <input type="button" value="Valider" id="valid">
+                    </div>
+                </div>
+                <div class="word">
+                    <h1 id="textElement">Cachalot</h1>
+                </div>
+                <div class="taping">
+                    <form method="get" action="">
+                        <p>
+                            <textarea name="text" id="text"></textarea>
+                        </p>
+                    </form>
+                </div>
+                <div class="score" id="scoreDisplay">Votre score: 0</div>
+                <div class="wrapper" id="wrapper">
+                    <div class="chrono" id="chrono">00:00:00</div>
+                </div>
+                <div class="restart">
+                    <form action="" method="get">
+                        <input type="submit" id="restart" value="Rejouer">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <h2>@Copyright: Openclassrooms</h2>
+            </div>
+        </footer>
+    </body>
+</html>

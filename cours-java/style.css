@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    width: 100%;
+}
+
+header h1 {
+    padding-bottom: 20px;
+    font-size: 3em;
+    color: #ff4733;
+}
+
+header h2 {
+    padding-bottom: 15px;
+    font-size: 1.5em;
+    color: #ff5e4d;
+}
+
+header p {
+    font-size: 0.8em;
+    color: #ff7566;
+}
+
+.main .container {
+    width: 650px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ff5e4d;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+}
+
+.main .choice form {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    gap: 30px;
+}
+
+.main .selectChoice .validButton input {
+    display: flex;
+    margin-top: 15px;
+    padding: 10px;
+    width: 80px;
+    background-color: white;
+    color: #ff5e4d;
+    border: none;
+    border-radius: 10px;
+}
+
+.main .selectChoice .validButton input:hover {
+    font-weight: 600;
+}
+
+.main .selectChoice {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main .word {
+    display: block flex;
+    width: 550px;
+    height: 70px;
+    background-color: white;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.main h1 {
+    color: #ff4733;
+}
+
+.main .taping form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.main .taping textarea {
+    width: 450px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    resize: none;
+    width: 500px;
+}
+
+.main .chrono {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.main .restart input {
+    width: 80px;
+    height: 30px;
+    margin: 20px;
+    background-color: white;
+    color: #ff5e4d;
+    border: none;
+    border-radius: 10px;
+}
+
+.main .restart input:hover {
+    font-weight: 600;
+}
+
+footer {
+    display: block;
+    height: 5em;
+    width: 100%;
+    background-color: #ff5e4d;
+    margin-top: 300px;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+
+footer .container h2 {
+    color: white;
+    font-size: 1.2em;
+}
