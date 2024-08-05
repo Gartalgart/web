@@ -36,9 +36,11 @@ const sentenceComputer = [
     "Il bricole une étagère.", "Le vent se calme.", "Nous faisons du camping.", "Elle fait un gâteau.", "Il regarde des vidéos."
 ];
 
-
+//Fonction pour sélectionner 10 mots au hasard
 function getRandomWord(wordComputer, numWords){
+//Mélange la liste de mots en utilisant la fonction de comparaison aléatoire pour "sort"
     const shuffled = wordComputer.sort(() => 0.5 - Math.random())
+//Extrait les premiers mots de la liste mélangée
     return shuffled.slice(0, numWords)
 }
 
