@@ -18,25 +18,25 @@ header .container {
 header h1 {
     padding-bottom: 20px;
     font-size: 3em;
-    color: #ff4733;
+    color: #2e5cb8;
 }
 
 header h2 {
     padding-bottom: 15px;
     font-size: 1.5em;
-    color: #ff5e4d;
+    color: #4775d1;
 }
 
 header p {
     font-size: 0.8em;
-    color: #ff7566;
+    color: #5c85d6;
 }
 
 .main .container {
     width: 650px;
     margin: auto;
     padding: 30px;
-    background-color: #ff5e4d;
+    background-color: #4775d1;
     text-align: center;
     border-radius: 30px;
     color: white;
@@ -56,7 +56,7 @@ header p {
     padding: 10px;
     width: 80px;
     background-color: white;
-    color: #ff5e4d;
+    color: #5c85d6;
     border: none;
     border-radius: 10px;
 }
@@ -83,7 +83,7 @@ header p {
 }
 
 .main h1 {
-    color: #ff4733;
+    color: #2e5cb8;
 }
 
 .main .taping form {
@@ -115,7 +115,7 @@ header p {
     height: 30px;
     margin: 20px;
     background-color: white;
-    color: #ff5e4d;
+    color: #5c85d6;
     border: none;
     border-radius: 10px;
 }
@@ -128,7 +128,7 @@ footer {
     display: block;
     height: 5em;
     width: 100%;
-    background-color: #ff5e4d;
+    background-color: #4775d1;
     margin-top: 300px;
 }
 

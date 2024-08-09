@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="login.css">
+        <script src="scripts/login.js" defer></script>
+        <title>KeySprint</title>
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    </head>
+    <body>
+        <section class="container" id="container">
+            <div class="form-container signUp">
+                <form method="get" action="">
+                    <h1>S'enregistrer</h1>
+                    <p>Créer un identifiant et un mot de passe pour t'enregistrer.</p>
+                    <input type="text" placeholder="Name">
+                    <input type="password" placeholder="password">
+                    <input type="password" placeholder="password">
+                    <button>S'enregistrer</button>
+                </form>
+            </div>
+            <div class="form-container signIn">
+                <form method="get" action="">
+                    <h1>Se connecter</h1>
+                    <input type="text" placeholder="Name">
+                    <input type="password" placeholder="password">
+                    <a href="game.html" class="connectBtn">Se connecter</a>
+                    <a href="">Tu as oublié ton mot de passe ?</a>
+                </form>
+            </div>
+            <div class="toggle-container">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left">
+                        <h1>Tu es de retour !</h1>
+                        <p>Entre ton identifiant et ton mot de passe pour
+                         jouer à KeySprint</p>
+                        <button class="hidden" id="login">Se connecter</button>
+                    </div>
+                    <div class="toggle-panel toggle-right">
+                        <h1>Bienvenue l'Amie !</h1>
+                        <p>Créer un identifiant et ton mot de passe pour
+                         jouer à KeySprint</p>
+                         <button class="hidden" id="register">S'enregistrer</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
